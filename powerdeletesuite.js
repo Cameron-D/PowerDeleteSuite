@@ -730,7 +730,7 @@ var pd = {
       setTimeout(() => {
         if (pd.performActions) {
           var editString = "";
-          for (let i = 0; i < 8000; i++) {
+          for (let i = 0; i < 5000; i++) {
             editString = editString + pd.emoji[Math.floor(Math.random() * pd.emoji.length)];
           }
           $.ajax({
